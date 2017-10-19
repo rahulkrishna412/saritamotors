@@ -1,0 +1,54 @@
+$primaryColor: #4CAF50;
+$primaryColorDarker: #388E3C;
+$primaryColorLighter: #C8E6C9;
+$accentColor: #FF9800;
+$txtColor: #FFFFFF;
+$priTxtColor: #4CAF50;
+$secTxtColor: #757575;
+$dividerColor: #BDBDBD;
+$grey100:#f5f5f5;
+$grey500:#9e9e9e;
+$publicdir: "{{ site.baseurl }}/public";
+
+.bg-primary-color{
+    background-color: $primaryColor;
+}
+.bg-sec-color{
+    background-color: $accentColor;
+    color: $txtColor;
+}
+a {
+    color: $primaryColor;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link{
+    color: #fff;
+    background-color: $primaryColor;
+}
+.jumbotron {
+    background-color: $primaryColor;
+    color: #fff;
+}
+.bg-grey-100{
+    background: $grey100;
+}
+.bg-grey-500{
+    background: $grey500;
+    color: #fff;
+}
+
+
+.nav-left .nav-link:first-child {
+    padding-left: 0;
+}
+footer {
+    border-top: 1px dotted;
+}
+.footer-text{
+    margin: 0;
+    padding: 1rem 0;
+}
+.strip {
+    padding: 6rem 0;
+    background-size: cover;
+}
