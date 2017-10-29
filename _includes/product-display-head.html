@@ -1,0 +1,30 @@
+<section class="strip bg-grey-100">
+          <div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 ">
+          <img class="img-fluid" src="{{ site.baseurl }}/public/products/{{ page.image }}">
+        </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+          <h3>
+          {{ page.title }}
+            </h3>
+          <p>
+        {{ page.description }}
+              </p>
+          <p>
+        <ul class="yes-list">
+          <li>{{ page.highlight1 }}</li>
+        <li>{{ page.highlight2 }}</li>
+        <li>{{ page.highlight3 }}</li>
+        <li>{{ page.highlight4 }}</li>
+        <li>{{ page.highlight5 }}</li>
+          </ul>
+          </p>
+          
+          <a href="/{{ page.code }}/pre-order" class="btn btn-primary">Pre Order</a>
+          <a href="/{{ page.code }}" class="btn btn-link">Send an enquiry</a>
+        </div>
+      
+    </div>
+    </div>
+</section>
