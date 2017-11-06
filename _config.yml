@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Sarita Motors
 tagline:             Electric Motors for better tomorrow
-url:                 http://saritamotors.com
+url:                 https://saritamotors.com
 paginate:            1
-baseurl:             ""
+baseurl:             "https://saritamotors.com"
 
 # Assets
 #
